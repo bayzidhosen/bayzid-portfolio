@@ -4,21 +4,25 @@ body{
     
 }
 h1{
-    font-size: 50px;
-    
+    font-size: 40px;
+}
+
+#name-id{
+    margin: 0%;
 }
 .red-color{
     color: black;
+    text-align: center;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
-    width: 50%;
-    padding-left:2%; 
+    width: 40%;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 }
 .link-button{
     text-decoration: none;
@@ -29,6 +33,40 @@ section{
 .year{
     color: red;
 }
+
 .head{
     text-align:center;
+}
+
+.halfwidth img{
+    width: 30%; 
+}
+
+.fullWidth{
+    width: 200%;
+
+}
+.Develop {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-x: 0%;
+    background-position-y: 70%;
+   
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+#year{
+
+    color: brown;
+}
+.middle{
+    text-align: center;
 }
